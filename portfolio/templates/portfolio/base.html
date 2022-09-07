@@ -39,16 +39,25 @@
             <a class="nav-link" href="https://www.linkedin.com/in/se-ba-154615211/" target="_blank">LinkedIn</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.facebook.com/eochaid.allathair" target="_blank">Facebook</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" id="github" href="https://github.com/Enlyl" target="_blank">Github</a>
-          <li>
-            <a role="button" href="{% url 'blog:all_blogs' %}" class="btn btn-outline-dark" >Blog</a>
           </li>
+          <div class="dropdown">
+          <button class="btn btn btn-outline-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Social networks
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="https://www.facebook.com/eochaid.allathair" target="_blank">Facebook</a>
+            <a class="dropdown-item" href="https://www.instagram.com/eochaid_allathair/" target="_blank">Instagram</a>
+            <a class="dropdown-item" href="https://cat-bounce.com/" target="_blank">Something else here</a>
+          </div>
+          </div>
+          <li>
+          <a role="button" href="{% url 'blog:all_blogs' %}" class="btn btn-outline-info" >Blog</a>
+          </li>
+
+        </div>
         </ul>
       </div>
-    </div>
   </nav>
   <div class="container">
     {% block content %}{% endblock %}

@@ -3,7 +3,7 @@
 }
 
 .navbar-nav .nav-link:hover {
-    color: rgba(0,0,0,.5) !important;
+    color: #3F7AD5 !important;
 }
 
 body {
@@ -21,3 +21,7 @@ body {
     #blogdetailtitle {
         font-size: 5rem;
     }
+
+body {
+  background-color: #E7E7E7;
+}
