@@ -25,3 +25,18 @@ body {
 body {
   background-color: #E7E7E7;
 }
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #A5C3D8;
+  color: black;
+  margin: 0px 0px 0px;
+}
+
+.social {
+  width: 30px;
+  height: 30px;
+}
+
+footer { border-top: 1px solid #00BDE3; text-align: center; background-color: #FFF; width: 100%; bottom: 0px; z-index: 5; }
