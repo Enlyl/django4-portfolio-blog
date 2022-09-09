@@ -39,4 +39,21 @@ footer {
   height: 30px;
 }
 
-footer { border-top: 1px solid #00BDE3; text-align: center; background-color: #FFF; width: 100%; bottom: 0px; z-index: 5; }
+footer {
+  border-top: 1px solid #14A3B8;
+  text-align: center;
+  background-color: #E7E7E7;
+  width: 100%; bottom: 0px;
+  z-index: 5;
+}
+
+.social_networks{
+  margin:7px 0px 11px;
+}
+
+#auth{
+  margin-bottom: 3px;
+}
+
+
+
