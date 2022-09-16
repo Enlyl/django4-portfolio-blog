@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
+     background-color: #E7E7E7;
 }
 
 #blogtitle {
@@ -22,22 +23,6 @@ body {
         font-size: 5rem;
     }
 
-body {
-  background-color: #E7E7E7;
-}
-
-footer {
-  text-align: center;
-  padding: 3px;
-  background-color: #A5C3D8;
-  color: black;
-  margin: 0px 0px 0px;
-}
-
-.social {
-  width: 30px;
-  height: 30px;
-}
 
 footer {
   border-top: 1px solid #14A3B8;
@@ -54,6 +39,8 @@ footer {
 #auth{
   margin-bottom: 3px;
 }
+
+
 
 
 
